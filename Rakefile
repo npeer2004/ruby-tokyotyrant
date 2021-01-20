@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 GEMNAME = 'ruby-tokyotyrant'
-GEMVERSION = '0.5.2'
+GEMVERSION = '0.5.5'
 
 require 'pathname'
 $root = Pathname(__FILE__).dirname

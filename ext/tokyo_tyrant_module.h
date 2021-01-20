@@ -4,7 +4,7 @@
 #include <tokyo_tyrant.h>
 
 extern TCRDB *mTokyoTyrant_getdb(VALUE vself);
-extern void mTokyoTyrant_exception(VALUE vself, void *message);
+extern void mTokyoTyrant_exception(VALUE vself, const char *message);
 void init_mod();
 
 #endif
